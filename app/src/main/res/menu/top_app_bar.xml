@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <group>
+      <item
+          android:id="@+id/inicio"
+          android:title="Inicio"
+          />
+      <item
+          android:id="@+id/calendario"
+          android:title="Calendario"
+          />
+      <item
+          android:id="@+id/solicitar_eucaritia"
+          android:title="Solicitar Eucaristia"
+          />
+      <item
+          android:id="@+id/mis_eucaristias"
+          android:title="Mis eucaristias"
+          />
+   </group>
+   <group android:id="@+id/menu_salir">
+      <item
+          android:id="@+id/salir"
+          android:title="Salir"
+          />
+   </group>
+   <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_24"
+        android:title="@string/search"
+        android:contentDescription="@string/content_description_search"
+        app:showAsAction="ifRoom" />
+</menu>

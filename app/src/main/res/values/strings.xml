@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Holy_app</string>
+    <string name="txtEmail">Digite el correo</string>
+    <string name="txtClave">Digite clave</string>
+    <string name="txtBoton">INICIO DE SESION</string>
+    <string name="txtOlvidoClave">Olvide mi clave</string>
+    <string name="txtRecuperarClave">Recuperalo aquí</string>
+    <string name="txtNotieneUsuario">No tengo usuario</string>
+    <string name="txtCrearUsuario">Crear nuevo usuario</string>
+    <string name="txtBotonCrear">CREAR</string>
+    <string name="tienda">Tienda</string>
+    <string name="perfil">Perfil</string>
+    <string name="mapa">Mapa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Helateca</string>
+    <string name="descripcion">Deliciosos helados rellenos de fruta natural con deliciosos sabores</string>
+    <string name="ubicacion">MADE IN LABATECA</string>
+    <string name="txtNombre">nombre</string>
+    <string name="txtApellido">apellido</string>
+    <string name="txtContraseña">contraseña</string>
+    <string name="txtDocumento_de_identidad">Documento de Identidad</string>
+    <string name="txtTelefono">teléfono</string>
+    <string name="txtDireccion">dirección</string>
+    <string name="TituloCard">Eucaristía</string>
+    <string name="page_title">HOLY APP</string>
+    <string name="search">Buscar Contenedor Iglesia</string>
+    <string name="content_description_search">Permite hacer busquedas en general de la iglesia</string>
+    <string name="misdatos">Mis Datos</string>
+    <string name="txtEditarNombre">Nombre</string>
+    <string name="txtBtnEditar">Actualizar Información</string>
+    <string name="titulo">HOLY APP</string>
+    <string name="title_activity_navegacion">Activity_navegacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">TODO</string>
+    <string name="frase">frase</string>
+    <string name="fechaHora">hora</string>
+    <string name="nombreSacerdote">nombresacerdote</string>
+    <string name="cantidadCupos">cantidadCupos</string>
+    <string name="txtBotonAsistencia">Asistir</string>
+    <string name="txtBotonCancelar">Cancelar</string>
+    <string name="Inicio">Inicio</string>
+</resources>

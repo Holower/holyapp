@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169451091259",
+    "project_id": "holy-app-a9055",
+    "storage_bucket": "holy-app-a9055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169451091259:android:5931fda13806f65843331e",
+        "android_client_info": {
+          "package_name": "com.example.holy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169451091259-psrg2ahcu48mdt5ifnh5m0pvu4a9238e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPlWnJ5lQ0C14AS9xi60jY-UkpN03f1_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169451091259-psrg2ahcu48mdt5ifnh5m0pvu4a9238e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

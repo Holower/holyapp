@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CrearUsuarioActivity">
+
+    <ImageView
+        android:layout_width="336dp"
+        android:layout_height="237dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imglogin" />
+    //Nombre
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtNombre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    //Apellido
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtApellido">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevoApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    //Contraseña
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtContraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevoContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    //Documento de identidad
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtDocumento_de_identidad">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevoDocumento_de_identidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    //Telefono
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtTelefono">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevoTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    //Direccion
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtDireccion">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nuevaDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/crear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBotonCrear"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
