@@ -49,4 +49,6 @@
     <string name="txtBotonAsistencia">Asistir</string>
     <string name="txtBotonCancelar">Cancelar</string>
     <string name="Inicio">Inicio</string>
+    <string name="txtCorreo">Correo</string>
+    <string name="resource">imagen</string>
 </resources>

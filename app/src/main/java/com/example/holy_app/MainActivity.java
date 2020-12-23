@@ -3,6 +3,7 @@ package com.example.holy_app;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 iniciar(email.getText().toString(),password.getText().toString());
+                Intent intent = new Intent(v.getContext(), ContenedorActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -57,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Authentication exitosa.",
                                     Toast.LENGTH_SHORT).show();
                             //updateUI(user);
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
@@ -69,4 +73,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
     }
+    public void crearUsuario(View view){
+        Intent intent = new Intent(this, CrearUsuarioActivity.class);
+        startActivity(intent);
+    }
+
+
 }

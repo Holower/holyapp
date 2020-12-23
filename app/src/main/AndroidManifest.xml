@@ -15,6 +15,8 @@
             android:theme="@style/Theme.Holy_app.NoActionBar" >
         </activity>
         <activity android:name=".MainActivity2" />
+        <activity android:name=".CrearUsuarioActivity" />
+        <activity android:name=".ContenedorActivity" />
         <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
